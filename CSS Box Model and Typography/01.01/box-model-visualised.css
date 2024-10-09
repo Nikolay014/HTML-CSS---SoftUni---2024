@@ -1,0 +1,37 @@
+.css-box-model{
+    width: 50%;
+    margin: 50px auto;
+}
+.css-box-model div{
+    border: 1px dashed;
+    margin: 10px 20px 20px 20px;
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    margin: 0;
+    font-size: 10px;
+}
+
+
+.content {
+    text-align: center;
+    background-color: aqua;
+    
+}
+.content p{
+    font-weight: bold;
+}
+.padding{
+    background-color: rgb(85, 227, 106);
+}
+.border{
+    background-color: rgb(235, 194, 118);
+}
+
+.margin{
+    background-color: rgb(255, 128, 0);
+}

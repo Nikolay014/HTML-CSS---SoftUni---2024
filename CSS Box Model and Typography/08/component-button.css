@@ -1,0 +1,30 @@
+a{
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.b1{
+    background: rgb(177, 172, 172);
+}
+.b2{
+    background: orange;
+}
+.b3{
+    background: rgb(226, 226, 124);
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid grey;
+    transition: 0.5s ease;
+    
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

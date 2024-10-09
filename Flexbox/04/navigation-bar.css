@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+
+}
+a{
+    text-decoration: none;
+}
+div ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.container  {
+    width: 90%;
+    margin: auto;
+    background: rgb(212, 207, 207);
+    border-radius: 10px;
+}
+div ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 8px;
+    background: white;
+    color: orange;
+    transition: 0.3 ease;
+}
+div ul li:hover{
+    transform: scale(1.2);
+}
+

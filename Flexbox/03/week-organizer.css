@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    border: 1px ;
+    
+}
+.week-day-title {
+flex: 0 0 100%;
+}
+.left-week{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container div div{
+    border: 1px solid grey;
+}
+.right-tasks{
+    display: flex;
+    flex-direction: column;
+    
+}
+.reminders{
+    width: 100%;
+    flex-basis: 100%;
+}
+.first , .second, .third, .fourth, .fifth{
+    flex: 0 0 calc(100% / 5);
+}
+.week-day{
+    padding:15px;
+    
+
+    text-align: center;
+}
+
+.week-day-title {
+    padding: 20px;
+    text-align: center;
+}
+.weekend-day-title{
+    text-align: center;
+    flex: 0 0 100%;
+    padding: 20px;
+}
+.seventh, .sixth{
+    flex: 0 0 50%;
+}
+.item-right{
+    flex: 0 0 50%;
+    padding: 15px 20px;
+    text-align: center;
+}

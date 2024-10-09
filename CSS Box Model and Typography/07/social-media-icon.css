@@ -1,0 +1,14 @@
+a{  
+    border: 1px grey;
+    padding: 15px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+i{
+    transition: 0.3s ease;
+}
+i:hover{
+    transform: scale(1.5);
+}
