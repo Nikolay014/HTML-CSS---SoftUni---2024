@@ -1,0 +1,34 @@
+@media (width<=600px) {
+    .header-title{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    header{
+        padding-top: 110px;
+    }
+    nav img{
+        display: none;
+    }
+    nav ul li:nth-child(1) {
+        padding-left: 40px;
+    }
+
+    
+      
+      .our-dogs ul li img {
+        width: 200px;
+        height: 200px;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+      }
+      .helpNeed ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      
+    
+    
+    
+}
