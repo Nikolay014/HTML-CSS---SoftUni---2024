@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+body{
+    
+    font-family: 'PT Sans',sans-serif;
+}
+.site-header{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-nav img{
+    position: absolute;
+    height: 100px;
+    left: 230px;
+    bottom: 37px;
+    
+
+    
+    
+}
+.links-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    padding: 70px 240px;
+
+    flex-direction: row;
+}
+.links-nav ul li a{
+    font-weight: 900;
+    font-size: 17px;
+}
+.img-nav{
+    position: relative;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.container2 h1{
+    margin-top: 80px;
+    font-size: 3.3rem;
+    
+}
+.container2 p{
+    text-align: center;
+    width: 60%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container2 button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+}
+.catalog{
+    background: rgb(96 172 193);
+}
+.catalog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog-container h2{
+    margin-top: 50px;
+}
+.catalog-container p {
+    margin-bottom: 40px;
+}
+.artic-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 0px 100px;
+    margin-bottom: 50px;
+    justify-content: space-between
+}
+.artic-cont article{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 calc(50% - 80px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    background-color: white;
+    border-right: 8px solid rgb(96 172 193);
+    max-height: 250px;
+
+}
+.artic-cont article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.artic-cont .cat-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 50px 20px;
+
+}
+.cat-img{
+    width: 100%; /* Контейнерът заема 100% от ширината на родителския елемент */
+    height: 100%; /* Контейнерът заема 100% от височината на родителския елемент (опционално, зависи от случая) */
+    overflow: hidden;
+}
+.artic-cont article .cat-img{
+    flex-basis: 250%;
+}
+.artic-cont .cat-text h4{
+    text-align: center;
+}
+.furniture-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px; /* Добавя се padding за по-добра визуализация */
+    /* Цвят на фона, подобен на този от изображението */
+}
+
+.furniture-container article {
+    flex: 0 0 30%; /* Всяка статия заема 30% от родителския елемент */
+    display: flex;
+    flex-direction: column; /* Подрежда изображенията и текста в колона */
+    align-items: center; /* Центрира изображенията и текста */
+    text-align: center; /* Центрира текста под изображението */
+     /* Бял фон за всяка статия */
+    padding: 20px; /* Отстояние вътре в статията */
+    /* Закръглени ъгли */
+     /* Лек сянка за по-добър визуален ефект */
+    margin-bottom: 20px; /* Разстояние между статиите, за да не се струпват */
+}
+
+.f-img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 15px; /* Разстояние между изображението и текста */
+}
+
+.furniture-container article img {
+    width: 100%; /* Изображението заема цялата ширина на контейнера */
+    height: 100%; /* Изображението заема цялата височина на контейнера */
+    object-fit: contain; /* Изображението се побира в контейнера без да се изрязва */
+}
+
+.f-text h4 {
+    font-size: 1.2em; /* Увеличава размера на заглавието */
+    margin-bottom: 10px; /* Отстояние под заглавието */
+    color: #555; /* Малко по-тъмен цвят за заглавието */
+}
+
+.f-text p {
+    font-size: 1em; /* Нормален размер на шрифта за параграфа */
+    color: #777; /* По-светъл цвят за текста */
+    line-height: 1.5; /* Разстояние между редовете */
+}
+.catalog2 {
+    background-color: #6BA6B5; /* Цвят на фона, подобен на този от снимката */
+    padding: 40px 0; /* Отстояние от горната и долната част */
+    text-align: center; /* Центрира заглавието и параграфа */
+}
+
+.catalog-container2 h2 {
+    
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+}
+
+.catalog-container2 p {
+    font-size: 1em;
+    
+    margin-bottom: 40px; /* Разстояние между параграфа и изображенията */
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between; /* Центрира изображенията хоризонтално */
+    gap: 50px; /* Разстояние между изображенията */
+    margin: 0px 140px;
+}
+
+.img-container div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    flex: 0 0 calc(33% - 50px); /* Леко засенчване на изображенията */
+     /* Закръглени ъгли на контейнерите */
+    overflow: hidden; /* Скрива частите на изображенията извън контейнера */
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Изображението ще запълни контейнера, без да се изкривява */
+     /* Закръглени ъгли на самите изображения */
+}
+.about-us-cnt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.about-us-cnt h2{
+    margin-top: 40px;
+    color: rgb(103 104 107);
+}
+.about-us-cnt p{
+    color:#a4a5a8;
+}
+.about-us-cnt p:nth-of-type(1){
+    margin-bottom: 40px;
+}
+.about-us-cnt p:nth-of-type(2){
+    width: 65%;
+    margin-bottom: 40px;
+}
+footer{
+    background-color: rgb(45 51 60);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.furniture-container p{
+    color: #a4a5a8;
+}

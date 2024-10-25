@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.postcard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.image-section {
+    position: relative;
+    width: 100%;
+    
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.message {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.message h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.message p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.address-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+
+.address-section p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.address-section p strong {
+    font-size: 18px;
+}
