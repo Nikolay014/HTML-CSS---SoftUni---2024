@@ -1,0 +1,375 @@
+@import url("(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap)");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+header{
+    position: relative;
+}
+
+.top-bar {
+    background-color: #f4a9bb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.top-links div{
+    border-right: 1px solid white;
+    padding-right: 20px;
+    margin: 0px;
+}
+.top-links div:nth-of-type(3){
+    border: none;
+
+}
+
+.top-links div, .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.top-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 967px;
+    right: 350px;
+    border-radius: 50px;
+    
+    
+    padding: 10px 140px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(241 149 178);
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-image: url('images/carousel-1.jpg'); /* Постави пътя към изображението */
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    text-align: center;
+    padding: 150px 20px;
+    color: white;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-section h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-section h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4a9bb;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-btn:hover {
+    background-color: #e68aa0;
+}
+span{
+    color: rgb(114 201 233);
+    font-size: 35px;
+}
+.social-media{
+    display: flex;
+    gap: 8px;
+    
+}
+.social-media a{
+    margin-left: 9px;
+}
+.ice-cream-section {
+    width: 100%;
+    
+    padding: 90px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+
+
+.section-title::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #f06595;
+    margin: 10px auto 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text-box p:nth-of-type(1){
+    font-size: 18px;
+    color: #333;
+    font-weight: 800;
+}
+.features-box li{
+    font-size: 21px;
+    color: #333;
+    font-weight: 800;
+}
+.text-box{
+    flex-basis: 25%;
+}
+.features-box {
+    flex-basis: 20%;
+}
+.content-container p{
+    font-size: 20px;
+}
+.features-box p{
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.text-box, .features-box {
+    width: 30%;
+    text-align: left;
+}
+
+.image-box {
+    width: 30%;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-box h3, .features-box h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.text-box p, .features-box p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4ab3ff;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.learn-more-btn1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f06595;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+.features-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.features-box li {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.features-box li i {
+    color: #4ab3ff;
+    margin-right: 8px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    color: #666;
+    margin-top: auto;
+}
+
+.footer-logo h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-social-icons a {
+    color: #4ab3ff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.footer-contact h3, .footer-hours h3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.footer-contact p, .footer-hours p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.footer-contact, .footer-hours {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #4ab3ff;
+    text-decoration: none;
+    border: 1px solid #4ab3ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.footer-copyright  {
+    font-size: 1.0em;
+    color: #999;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-info {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+}
+.footer-contact{
+    text-align: left;
+}
+
+.footer-contact {
+    margin-left: 580px;
+    border-right:2px solid grey;
+    padding-right: 35px;
+}
+.footer-info .footer-contact h3 {
+ text-align: end;
+}
+.footer-info .footer-contact p {
+    text-align: end;
+   }
+.footer-info .footer-hours h3 {
+    text-align: start;
+   }
+   .footer-info .footer-hours p {
+    text-align: start;
+   }
+.ice-cream-section {
+    background-color: rgb(200 231 248);
+}
